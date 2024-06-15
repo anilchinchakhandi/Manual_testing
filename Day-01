@@ -1,0 +1,66 @@
+1) What is a software : 
+    Software is a collection of computer programs that helps us to perform a task. 
+
+Types of Software :
+
+	* System software:
+        ex :- Devices, drivers, Operating Systems, servers, utilities etc.
+
+    * Programming software:
+        ex :- compilers, debugger, interpreters etc.
+
+    * Application software:
+        ex:- web Application, mobile apps, Desktop Application etc.
+
+
+** TESTING IS MAINLY FOCUS ON APPLICATION TESTING 
+
+X-BANK(COMPANY)---------> IT COMPANY --------> DEVELOP -------->TESTING------->DELIVER------->X-BANK
+                approach                       (coding)         (checking working fine)               
+
+2) what is software testing :
+    - Software testing is a part of development process.
+    - Software  testing is to activity to detect and identify the defects in the software.
+    - The main Objective of testing is to release the QUALITY product to client.
+
+    SOFTWARE QUALITY:
+
+   * Bug-free
+   * Delivery on Time
+   * Within budget
+   * Meets requirements and/or expectation
+   * Maintainable
+
+3) What is difference between Project and Product ?
+
+- PROJECT :  It software application is developed for specific customers based on requirement.
+            ex:- Bank application etc
+
+- PRODUCT : It software application is developed for multiple customers based on market requirements.
+            ex:- Facebook, Whatsapp, google pay  etc
+
+4) What is difference between Service Based company and Product Based company ?
+
+- Service Based company : Service Based companies are working for client projects.
+            ex:- TCS, infosys, Wipro etc
+
+- Product Based company : Product Based companies are working for own projects.
+            ex:- Amazon, Google, Microsoft
+
+5) Why do we need Testing ?
+-  Deliver the Quality product to the customer/client.
+
+6) what is Error, Bug/defect and Failure ?
+- Error : Error is humen mistake/humen action.
+            ex:- If developer mistake in writing a code.
+
+-Bug/defect : Deviation of expected behaviour and actual behaviour
+
+- Failure : Deviation identified by end users if the product not working properly.
+
+7) Why software has bug?
+- * Misscommunication or NOcommunication 
+  * Software complaxity
+  * Programming errors 
+  * Changing requirements
+  * Lack of skill testers
