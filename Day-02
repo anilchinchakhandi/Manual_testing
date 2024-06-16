@@ -1,0 +1,158 @@
+1) SOFTWARE DEVELOPMENT LIFE CYCLE (SDLC):
+        " It is a process used by software industry to design ,develop and test the software."
+
+** IT IS MAINLY WORK ON 3 P'S **
+
+P- People
+p- process
+p- product
+
+**Phases of SDLC:**
+
+Requirement Analysis--------> Design ---------> Development--------->Testing -------->Maintenance
+
+MODELS ARE COMES UNDER THE SDLC:
+
+- Waterfall model
+- Prototype model
+- Spiral model
+- V-MODEL/VV model
+
+
+2) WATERFALL MODEL:
+   "Waterfall used long term projects."
+
+**Phases of waterfall model**
+         
+Requirement Analysis----------> System design -----------> Implementation -----------> Testing ------->Deployment---------> Maintenance
+
+phase 1 :- Requirement analysis :
+                " In this phase Business unit of the organization  talk to the customer/client prepare the documentation based on the customer"
+
+phase 2 :- System Design :
+                " In this phase designing team design the model based on requirement analysis and prepare the designing documentation"
+
+phase 3 :- Implementation  :
+                " In this phase developer will write the code based on the designing and build the software"
+
+phase 4 : - Testing :
+                " In this phase tester will test the software"
+
+phase 5 :- Deployment :
+                " In this phase install/deploy the product in to customer Environment"
+
+phase 6 : - Maintenance :
+                " In this phase  take care of the installed product every situation"
+
+** ADVANTAGES OF WATERFALL MODEL**
+
+1) Quality of the product is good because we will prepare the documentation every phase.
+2) Requirement changes not allowed, chances of finding bugs is less.
+3) Initial investment is less because we can hire the testing team later stage.
+4) This model is preffored for small project where requirement is static(no change).
+
+** DISADVANTAGE OS WATERFALL MODEL **
+
+1) Requirement changes are not allowed .
+2) If there is any defect in the requirement that will be continue to all the phases .
+3) Total investment is more because if defect in the middle of the phase we need to work on every phase so time taking for rework.
+4) Testing will start only after coding.
+
+
+3) SPIRAL MODEL :
+
+- Spiral model is a iterative model.
+- Every iteration software will release to customers.
+- software will be released multiple version so it is called as version control model 
+
+** phases of SPIRAL Model  **
+
+Planning                                          Engineering and Execution
+Requirement Analysis -----> Risk analysis -------> Design and development ------> Testing and deployment
+
+
+** Advantages of Spiral Model **
+
+1) Testing is done on every iteration before going to the next cycle.
+2) Customer no need to wait to build entire software will get to use after completion of every cycle/iteration.
+3) Requirement changes are allowed after every cycle before going to next cycle.
+
+
+** DISADVANTAGES **
+
+1) Requirement changes are not allowed in between the cycle.
+2) Every cycle of spiral model looks like waterfall model.
+3) There is no testing requirement and design phase.
+
+4)  V-MODEL :
+
+V-model has two parts :
+
+- Verification : checks building right product or not and focus on documentation
+- Validation : checks builded product is right or not and focus on software
+
+phases in VERIFICATION :
+
+Requirement Analysis ---->SRS----> HLD & LLD ------> CODING
+(BRS/CRS/URS)
+
+BRS : Business requirement Specifications 
+CRS : Customer requirement Specifications
+URS : user requirement Specifications
+
+In this phase Business unit of the company talk to the customers and prepare the documentation based on the requirements.
+
+SRS: SOFTWARE REQUIREMENT SPECIFICATION :
+  In this phase product manager will prepare the documentation based on requirement.
+
+High level design(HCD) and Low level design(LLD):
+   IN this phase designing team design the module and prepare the designing documentation.
+
+
+   **** IN THIS EVERY PHASES STATIC TESTING WILL DONE ***
+
+   * STATIC TESTING : 
+            " Testing the project related documentation is called static testing"
+     static testing in the form of
+     - Review 
+     - walkthrough
+     - inspection
+
+    coding phase : developer will code based on designing documentation
+
+    VERIFICATIONS : 
+
+phases of VERIFICATIONS :
+
+    UNIT TESTING -------> INTEGRATION TESTING ----> SYSTEM TESTING ------> USER ACCEPTANCE TESTING
+
+    1) Unit testing and Integration testing is done by developer only because this testing is need to know the coding knowledge so It is called as WHITE BOX TESTING Tecnique.
+
+    2) System testing : Testing the software. test engineer will do the system testing 
+
+    3) User acceptance testing : Tester and End user will do the this testing  
+
+    System testing and user acceptance testing no need coding knowledge so it is called as BLACK BOX TESTING
+
+
+    THIS ALL TESTING CALLED AS DYNAMIC TESTING
+
+    Dynamic testing : testing the actual software 
+
+ADVANTAGES :
+
+- Testing is done every phases.
+
+DISADVANTAGES :
+
+- Documentation is more 
+- Initial investment is more because we need to hire developer and tester bigginig stage only
+
+
+
+
+
+
+
+
+
