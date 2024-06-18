@@ -1,0 +1,124 @@
+                          STATIC TESTING TECHNIQUE :
+                          --------------------------
+
+1) REVIEW : It is conduct on documents ensure correctness and completeness.
+   
+       * Requirement Reviews
+       * Design Review
+       * Code Review 
+       * Test plan Review 
+       * Test cases Review etc.
+
+2) WALKTHROUGH : 
+        
+       * It is a informal Review (informal: without any plan).
+       * Author reads the documents or code and discuss with peers.
+       * Also walkthrough does not have minutes of the meet.
+       * Need at least two or more people conduct the testing.
+
+3) INSPECTION : 
+
+       * It is most formal Review.
+       * In which at least 3-8 peoples will involve 
+         1) reader 2) writer 3)moderator  and concerned team.
+       * inspection team have proper schedule it will intimated by via email and concerned developer/tester.
+
+
+                           QA & QC & QE :
+                           --------------
+
+1) QUALITY ASSURANCE : It is a process related.
+   Quality CONTROL  : It is actual testing of the software.
+
+2) QA focuses on building the quality.
+   QC focuses on testing for quality.
+
+3) QA preventing the defects : preventing means fallow the correct process
+   QC detecting defects.
+
+4) QA process management.
+   QC is product management.
+
+5) QA fallow the entire life cycle of SDLC.
+   QC fallow the testing part in SDLC.
+
+QUALITY ENGINEERING(QE):
+
+QE means to write the code for testing the software (Automation testers).
+
+
+                      LEVELS OF TESTING :
+                      -------------------
+
+1) UNIT TESTING :
+-------------------------
+
+* Unit is a single component or module of the software.
+* Unit testing conducted by single module or component.
+* Unit testing is conducted by Developers.
+* Unit testing is white box testing technique.
+* Unit testing technique :
+  
+            - Basis path testing
+            - Control structure testing 
+            - conditional coverage
+            - Loops coverage 
+            - Mutation testing 
+
+2) INTEGRATION TESTING :
+---------------------------
+
+* Integration testing performed between the two or more module.
+* It is focuses on communication between the multiple modules.
+* It is the white box testing technique.
+* It is conduct the developer. SOMETIME Tester will conduct integration testing 
+    - CODE LEVEL : Developer will conduct.
+    - UI LEVEL : Tester will conduct.
+
+    TYPES OF INTEGRATION TESTING:
+    -----------------------------
+
+* INCREMENTAL INTEGRATION TESTING :
+------------------------------------
+                Incrementally adding the module and testing the data flow between the module.
+
+    APPROACHES :
+
+    * TOP DOWN : 
+            Incrementally adding the module and testing the data flow between the module. ensure that added module is the child of      previous module.
+
+    * BOTTOM UP :
+            Incrementally adding the module and testing the data flow between the module. ensure that added module is the parent of    previous module.
+
+    * SANDWICH/HYBRID :
+            Combination of both top down and bottom up approach.
+
+* NON-INCREMENTAL INTEGRATION TESTING :
+----------------------------------------
+                Adding all the module at one shot and test the data flow between the module.
+
+    DRAWBACKS:
+
+    * We might miss the some data flow between the modules.
+    * If you find any defect we can understand the root cause of defect.
+
+3) SYSTEM TESTING :
+--------------------
+
+* Testing the overall functionality of the software with respect to client requirement, should know the customer requirement.
+* It is the Black box testing technique.
+* Tester will conduct.
+* System testing focuses on :
+        * User Interface testing(GUI)
+        * Function testing.
+        * N0n-Functional testing.
+        * Usability testing.
+
+4) USER ACCEPTANCE TESTING(UAT):
+--------------------------------
+
+* After completion of system testing UAT team conduct the acceptance testing in 
+two level :
+
+        * ALPHA LEVEL.
+        * BETA LEVEL.
